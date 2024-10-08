@@ -1,13 +1,14 @@
 body {background-color: #f3bdff;
 
 }
+nav, footer {
+    background-color: aqua;
+
+}
 a{
     color: black;
     padding: 30px;
     font-size: 16px;
-}
-#active {
-    background-color: aqua;
 }
 
 
@@ -23,4 +24,5 @@ img {
 p{
     width: 70%;
     margin: 25px auto;
+    line-height: ;
 }
