@@ -16,5 +16,11 @@ h1{
 }
 
 img {
-    width: 300px;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+p{
+    width: 70%;
+    margin: 25px auto;
 }
