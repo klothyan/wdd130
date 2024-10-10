@@ -3,6 +3,14 @@ body {background-color: #f3bdff;
 }
 nav, footer {
     background-color: aqua;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#content {
+    background-color: #f3bdff;
+    max-width: 800px;
+    margin: 0 auto;
 
 }
 
