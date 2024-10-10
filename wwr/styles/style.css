@@ -1,0 +1,113 @@
+#content {
+    background-color: white;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a{
+    text-align: center;
+}
+
+#hero-msg h1{
+    text-align: center;
+}
+
+#hero-msg h4{
+    text-align: center;
+}
+
+.button-box{
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+
+body {
+    background-color:white;
+header {
+    background-color: #2DC7FF;
+}
+nav a:hover {
+    background-color: black;
+}
+.book {
+    background-color: #EABA6B;
+}
+.join {
+    background: #EABA6B;
+}
+.book:hover {
+    background-color: white;
+}
+.join:hover {
+    background-color: white;
+}
+#background {
+    background-color: #2DC7FF;
+}
+.msg {
+    background-color: #EABA6B;
+}
+footer {
+    background-color: #EABA6B;
+}
+
+nav a {
+    background-color: black
+    color #2DC7FF;
+}
+nav a:hover {
+    background-color: black
+    color#2DC7FF;
+}
+.home-title {
+    background-color: black
+    color #EABA6B;
+}
+h4 {
+    background-color: black
+    color #EABA6B;
+}
+.book {
+    background-color: black
+    color #2DC7FF;
+}
+.join {
+    background-color: black
+    color #2DC7FF;
+}
+.book:hover {
+    background-color: black
+    color #EABA6B;
+}
+.join:hover {
+    background-color: black;
+    color: #EABA6B;
+}
+.msg h2 {
+    background-color: black
+    color #2DC7FF;
+}
+.msg p {
+    background-color: black
+    color #2DC7FF;
+}
+footer {
+    background-color: black
+    color #EABA6B;
+}
+footer a {
+    background-color: black
+    color #EABA6B;
+}
+footer a:hover {
+    background-color: black
+    color #EABA6B;
+}
+}
