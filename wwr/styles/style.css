@@ -117,7 +117,6 @@ footer a:hover {
 .icon {
         width: 80px;
     }
-}
 
 nav a {
     text-align: center;
@@ -146,4 +145,5 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
 }
