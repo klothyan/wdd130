@@ -34,7 +34,7 @@ header {
     background-color: #2DC7FF;
 }
 nav a:hover {
-    background-color: black;
+    background-color: #EABA6B;
 }
 .book {
     background-color: #EABA6B;
@@ -110,4 +110,40 @@ footer a:hover {
     background-color: black
     color #EABA6B;
 }
+
+#hero-img {
+    width: 100%;
+}
+.icon {
+        width: 80px;
+    }
+}
+
+nav a {
+    text-align: center;
+    color: #2DC7FF;
+    text-decoration: none;
+}
+.book {
+    text-align: center;
+    color: #2DC7FF;
+    text-decoration: none;
+}
+.join {
+    text-align: center;
+    color: #2DC7FF;
+    text-decoration: none;
+}
+footer a {
+    text-align: center;
+    color: #2DC7FF;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
 }
