@@ -29,6 +29,17 @@ main section{
 }
 
 body {
+    background-color: white;
+    font-family: 'Caveat', 'arial', 'tahoma', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+body {
     background-color:white;
 header {
     background-color: #2DC7FF;
@@ -145,5 +156,127 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
+.home-title {
+    font-family: 'Caveat', 'arial', 'tahoma', sans-serif;
+    font-size: 2em;
+}
+.book {
+    font-family: 'Caveat', 'arial', 'tahoma', sans-serif;
+    font-size: 18px;
+}
+.join {
+    font-family: 'Caveat', 'arial', 'tahoma', sans-serif;
+    font-size: 18px;
+}
+.msg p {
+    font-family: 'Caveat', 'arial', 'tahoma', sans-serif;
+    font-size: .8em;
+}
+.msg {
+    background-color: #EABA6B;
+    line-height: 1.5em;
+}
+
+#logo_link {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding-top: 35px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 35px;
+}
+.book {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+.join {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 30px;
+}
+.icon {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+.msg {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 35px;
+}
+.msg p {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding-bottom: 15px;
+}
+footer {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 25px 50px;
+}
+footer .social img {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+}
+.home-title {
+    background-color: #2DC7FF;
+    color: black;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 15px 30px;
+    margin-top: 50px;
+}
+.book, .join {
+    background-color: #2DC7FF;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    background-color: #2DC7FF;
+    color: black;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 15px 30px;
+    margin: 200px 0;
+}
+footer {
+    background-color: #2DC7FF;
+    color: black;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 15px 30px;
+    margin-top: 200px;
+}
+.book, .join {
+    background-color: #2DC7FF;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img {
+    border: solid black 10px;
+}
+main section img {
+    box-sizing: border-box;
 }
 }
