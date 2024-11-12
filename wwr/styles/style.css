@@ -25,7 +25,7 @@ nav {
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
+    margin-top: 100px;
 }
 #hero-msg {
     grid-column: 2/3;
@@ -39,6 +39,10 @@ nav {
 }
 .card-img, .mountains {
     width: 100%;
+}
+img.card-img {
+    display: block;
+    margin: 0 auto;
 }
 .rivers-card {
     grid-column: 2/4;
@@ -161,6 +165,10 @@ body {
     .home-title {
         background-color: #EABA6B;
         color: black;
+   }
+   .home-grid {
+    display: grid;
+    grid-template-columns: repeat(10 1fr);
    }
     h4 {
         background-color: #EABA6B;
