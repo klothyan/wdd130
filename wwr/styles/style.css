@@ -233,16 +233,16 @@ h4 {
     color: black;
 }
 footer {
-    background-color: #EABA6B;
-    color: black;
+    background-color: black;
+    color: #EABA6B;
 }
 footer a {
     background-color: #EABA6B;
-    color: black;
+    color: #EABA6B;
 }
 footer a:hover {
     background-color: black;
-    color: black;
+    color: #EABA6B;
 }
 
 #hero-img {
@@ -381,7 +381,7 @@ footer .social img {
 }
 footer {
     background-color: #2DC7FF;
-    color: black;
+    color: #EABA6B
     text-decoration: none;
     font-size: 10px;
     padding: 15px 30px;
