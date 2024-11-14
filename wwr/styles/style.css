@@ -152,7 +152,7 @@ body {
         background-color: #EABA6B;
    }
     footer {
-        background-color: #EABA6B;
+        background-color: black;
    }
     nav a {
         background-color: #2DC7FF;
@@ -204,7 +204,7 @@ body {
    }
     footer a {
         background-color: #EABA6B;
-        color: #EABA6B;
+        color: black;
    }
     footer a:hover {
         background-color: black;
@@ -342,7 +342,7 @@ body {
    }
     footer {
         background-color: #2DC7FF;
-        color: #EABA6B;
+        color: black;
         text-decoration: none;
         font-size: 10px;
         padding: 15px 30px;
