@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Turret+Road:wght@200;300;400;500;700;800&display=swap');
+
+
+/* COLORS */
+header {
+    padding: 1em;
+    text-align: center;
+    color:#ff00f7;
+    background-color:#f3bdff;
+}
+header > h1, header > h2 {
+    color:#ff00f7;
+}
+#content {
+    background-color: #f3bdff;
+    max-width: 800px;
+    margin: 0 auto;
+}
+h2 {
+    text-align: center;
+}
+hr {
+    height: 3px;
+    margin: 35px 0;
+    background: var(--accent1-color);
+}
+/* SPACING */
+body {background-color: #f3bdff;
+    font-size: 20px;
+    font-family: Orbitron, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* ALL NAV CSS HERE */
+nav {
+    background-color: #ff00f7;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+}
+  nav  {
+    list-style-type: none;
+    display: flex;
+}
+nav a:link, nav a:visited {
+    color:#00f2ff;
+}
+nav, footer {
+    background-color: #ff00f7;
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid #ff00f7
+}
+nav a {
+    text-decoration: none;
+}
+nav a:hover {
+    color: #ff00f7;
+    background-color: #f3bdff;
+}  
+/* ALL CONTENT CSS HERE */
+#content {
+    background-color: #f3bdff;
+    max-width: 800px;
+    margin: 0 auto;
+}
+body {
+    background-image: url("ace_website_hero.png");
+    background-color: #cccccc;
+   }
