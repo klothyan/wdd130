@@ -76,6 +76,13 @@ nav, footer {
 nav a {
     text-decoration: none;
 }
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px;
+}
 nav a:hover {
     color: #ff00f7;
     background-color: #f3bdff;
