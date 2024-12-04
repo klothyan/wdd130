@@ -1,0 +1,29 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.floating-image {
+  position: absolute;
+  width: 200px; /* Adjust as needed */
+  animation: floatBackAndForth 5s ease-in-out infinite;
+}
+
+@keyframes floatBackAndForth {
+  0% {
+    left: 0%;             /* Start at the left */
+    transform: scaleX(1); /* Facing right */
+  }
+  50% {
+    left: calc(100% - 200px); /* Move to the right */
+    transform: scaleX(1);     /* Still facing right */
+  }
+  51% {
+    transform: scaleX(-1); /* Flip to face left */
+  }
+  100% {
+    left: 0%;             /* Return to the left */
+    transform: scaleX(-1); /* Still facing left */
+  }
+}
