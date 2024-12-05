@@ -33,7 +33,7 @@ body {
 /* GENERAL SPACING */
 header{
     display: grid;
-    grid-template-columns: 150px auto
+    grid-template-columns: 150px auto;
 }
 .home-grid {
     display: grid;
@@ -42,7 +42,7 @@ header{
 body {
     background-color: #f3bdff;
     font-size: 20px;
-    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-family: 'Turret road', Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -57,7 +57,7 @@ body {
     margin-top: 100px;
 }
 #hero-img {
-    width: 50%;
+    width: 100%;
 }
 
 /* ALL NAV CSS HERE */
@@ -72,16 +72,14 @@ nav {
 nav a:link, nav a:visited {
     color:#00f2ff;
 }
-nav {
-    display: block;
-}
 nav a {
     text-decoration: none;
+    text-align: center;
 }
 .navbar {
-    display: flex;
+    display: grid;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-around;
     padding: 15px;
 }
 nav a:hover {
@@ -105,6 +103,11 @@ footer {
 footer a {
     background-color: #ff00f7;
     color: #00f2ff;
+    text-decoration: none;
+}
+footer a:hover {
+color:#ff00f7;
+background-color: #f3bdff;
 }
 footer {
     margin-top: 25px;
@@ -112,8 +115,14 @@ footer {
 footer {
     font-size: 16px;
 }
-
-
+footer {
+    text-align: center;
+}
+/* ALL MAIN CSS HERE */
+main {
+    background-color: #f3bdff;
+    text-align: center;
+}
 
 
 
