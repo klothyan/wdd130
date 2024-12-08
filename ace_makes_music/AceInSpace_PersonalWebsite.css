@@ -137,5 +137,45 @@ main {
     text-align: center;
 }
 
+/* WORKS PAGE CONTAINER */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.release {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.song {
+    position: relative;
+    width: 270px;
+    height: 300px;
+    overflow: hidden;
+}
+.song-image {
+    transition: opacity 0.3s ease, filter 0.3s ease;
+} 
+.song-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.song:hover .song-image {
+    opacity: 0.4;
+    filter: darkness(50%);
+}
+.song:hover .song-info {
+    opacity: 1;
+}
+
 
 
