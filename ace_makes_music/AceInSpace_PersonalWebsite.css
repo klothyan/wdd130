@@ -177,5 +177,11 @@ main {
     opacity: 1;
 }
 
+/* FAQ PAGE CONTAINER */
 
-
+.faq-container {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.6;
+}
