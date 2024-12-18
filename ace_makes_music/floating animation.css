@@ -3,27 +3,25 @@
   width: 100%;
   height: 100%;
 }
-
 .floating-image {
   position: absolute;
-  width: 200px; /* Adjust as needed */
+  width: 200px;
   animation: floatBackAndForth 5s ease-in-out infinite;
 }
-
 @keyframes floatBackAndForth {
   0% {
-    left: 0%;             /* Start at the left */
-    transform: scaleX(1); /* Facing right */
+    left: 0%;             
+    transform: scaleX(1);
   }
   50% {
-    left: calc(100% - 200px); /* Move to the right */
-    transform: scaleX(1);     /* Still facing right */
+    left: calc(100% - 200px);
+    transform: scaleX(1);
   }
   51% {
-    transform: scaleX(-1); /* Flip to face left */
+    transform: scaleX(-1);
   }
   100% {
-    left: 0%;             /* Return to the left */
-    transform: scaleX(-1); /* Still facing left */
+    left: 0%;             
+    transform: scaleX(-1);
   }
 }
